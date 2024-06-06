@@ -1,4 +1,9 @@
 {
+    "functions": {
+        "api/**": {
+            "excludeFiles": "{.next,*.cache,node_modules,public,app}/**"
+        }
+    },
     "builds": [{
         "src": "vst/wsgi.py",
         "use": "@vercel/python",
